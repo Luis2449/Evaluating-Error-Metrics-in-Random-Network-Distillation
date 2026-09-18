@@ -1,0 +1,24 @@
+name: rnd-3.9
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.23.5
+  - matplotlib
+  - pip:
+      - ale-py==0.7.5
+      - autorom==0.4.2
+      - autorom-accept-rom-license==0.6.1
+      - gym==0.25.2
+      - gym-super-mario-bros==7.4.0
+      - gymnasium==1.1.1
+      - minigrid==3.0.0
+      - nes-py==8.2.1
+      - opencv-python==4.11.0.86
+      - pillow==11.3.0
+      - protobuf==6.33.6
+      - tensorboardX==2.6.5
+      - torch==2.8.0

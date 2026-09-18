@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Training outputs and checkpoints
+models/
+trainedModels/
+
+# Evaluation outputs
+evaluation/
+eval_results/
+
+# Logs and TensorBoard data
+logs/
+runs/
+*.log
+events.out.tfevents.*
+
+# Runtime data
+pids/
+*.pid
+seeds/
+
+# Generated media
+*.mp4
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor files
+.idea/
+.vscode/
+*.iml
+
+# Environment files
+.env
+.venv/
+venv/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
